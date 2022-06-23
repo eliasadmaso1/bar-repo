@@ -2,7 +2,7 @@
   "name": "bar-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eliasadmaso1.github.io/bar-repo",
+  "homepage": "c",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",

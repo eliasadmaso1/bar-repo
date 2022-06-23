@@ -29,7 +29,7 @@ font-weight: bold;
 }
 
 .item-img1{
-    width: 320px;
+    width: 300px;
 
 }
 .item-img2{
@@ -56,6 +56,19 @@ font-weight: bold;
 .space{
     height: 300px;
 }
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .beers-container{
+    }
+}
+   
+
 
 
 
