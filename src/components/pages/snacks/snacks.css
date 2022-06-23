@@ -1,0 +1,65 @@
+.snack-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: brown;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+}
+
+.snacks-title-container{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color:brown;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+ .item-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: solid 2px white;
+    height: 45vh;
+}
+
+.snack-name{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+
+.snack-img1{
+    width: 230px;
+
+}
+.snack-img2{
+    width: 260px;
+
+}
+.snack-img3{
+    width: 210px;
+
+}
+
+
+
+.snack-price{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.space{
+    height: 300px;
+}

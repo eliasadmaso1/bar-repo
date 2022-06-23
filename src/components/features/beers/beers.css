@@ -1,0 +1,61 @@
+.beers-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.beers-container .item-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: solid 2px brown;
+}
+
+ .beers-title-container{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.item-name{
+color: brown;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+
+.item-img1{
+    width: 320px;
+
+}
+.item-img2{
+    width: 110px;
+
+}
+.item-img3{
+    width: 140px;
+
+}
+.item-img4{
+    width: 180px;
+
+}
+
+
+.item-price{
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.space{
+    height: 300px;
+}
+
+
+

@@ -1,0 +1,60 @@
+.vodka-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: brown;
+}
+
+.vodka-title-container{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+ .item-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: solid 2px white;
+    height: 45vh;
+}
+
+.vodka-name{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+
+.vodka-img1{
+    width: 230px;
+
+}
+.vodka-img2{
+    width: 150px;
+
+}
+.vodka-img3{
+    width: 130px;
+
+}
+.vodka-img4{
+    width: 230px;
+
+}
+
+
+.vodka-price{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.space{
+    height: 300px;
+}
