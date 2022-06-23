@@ -5,7 +5,6 @@ import Home from "./components/pages/home/Home";
 import About from "./components/pages/about/About";
 import Gallery from "./components/pages/gallery/Gallery";
 import Navbar from "./components/features/navbar/Navbar";
-import Header from "./components/features/header/Header";
 
 function App() {
   return (
