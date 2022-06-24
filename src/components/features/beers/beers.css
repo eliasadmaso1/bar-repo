@@ -65,11 +65,20 @@ font-weight: bold;
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
     .beers-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
     .beers-container .item-container{
         border-right: none;
+        border-bottom: solid 1px brown;
+        margin-bottom: 20px;
     }
+    .beers-title-container{
+        margin-bottom: 20px;
+    }
+     .space{
+         height: 0px;
+     }
+    
 }
    
 

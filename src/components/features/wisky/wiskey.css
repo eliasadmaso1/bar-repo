@@ -63,10 +63,17 @@ font-weight: bold;
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
     .wisky-container{
-       
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
     .wisky-container .item-container{
         border-right: none;
+        border-bottom: solid 1px brown;
+        margin-bottom: 20px;
+    }
+    .wisky-title-container{
+        margin-bottom: 20px;
+    }
+    .space{
+        height: 0px;
     }
 }

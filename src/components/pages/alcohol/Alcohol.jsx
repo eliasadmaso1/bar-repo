@@ -11,7 +11,7 @@ function Alcohol() {
         <Beers/>
         <Vodka/>
         <Wiskey/>
-        <Snacks/>
+        {/* <Snacks/> */}
             
         </>
     )

@@ -66,9 +66,17 @@ font-weight: bold;
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
     .vodka-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
     .vodka-container .item-container{
         border-right: none;
+        border-bottom: solid 1px brown;
+        margin-bottom: 20px;
+    }
+    .vodka-title-container{
+        margin-bottom: 20px;
+    }
+    .space{
+        height: 0px;
     }
 }
