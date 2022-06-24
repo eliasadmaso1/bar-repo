@@ -18,7 +18,7 @@ function About() {
                 <h4>הרצל 34, ראשון לציון</h4>
             </div>
             <div className="about-section">
-                <h1>אלכוהול איכותי במחירים שפויים</h1>
+                <h1>אלכוהול במחירים שפויים</h1>
                 <div className="section-card">
                     <div className="card">
                         <h3 className="card-title">צ׳ייסרים ב-9 ש״ח</h3>

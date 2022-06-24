@@ -136,7 +136,11 @@
         width: 50%;
         height: 28vh;
         margin-bottom: 30px;
+
       
+    }
+    .about-section h1{
+        margin-top: 20px;
     }
 
     .about-section2{
@@ -145,7 +149,7 @@
     
     }
     .about-section2 h1{
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .about-section2 h2{

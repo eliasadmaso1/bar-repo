@@ -5,15 +5,14 @@
 }
 
 .gallery-img{
-    width: 400px;
-    border-radius: 15px;
+    width: 90%;
 }
 
 .img-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .gallery-title{
@@ -34,5 +33,9 @@
 (min-width: 360px) and (max-width: 767px) {
     .gallery-container{
         grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    .img-container{
+        margin-bottom: 20px;
     }
 }

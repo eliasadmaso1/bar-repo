@@ -67,7 +67,9 @@ font-weight: bold;
     }
     .wisky-container .item-container{
         border-right: none;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        border-top: solid 0.5px brown;
+        margin-top: 20px;
     }
     .wisky-title-container{
         margin-bottom: 20px;

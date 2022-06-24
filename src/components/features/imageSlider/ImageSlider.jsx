@@ -11,12 +11,12 @@ function ImageSlider({slides}) {
     }
 
     const nextSlide = ()=>{
-        setCurrent(current === length - 1 ? 0 : current + 1);
+        setCurrent(current === 3 ? 0 : current + 1);
 
     }
 
     const prevSlide = ()=>{
-        setCurrent(current === 0 ? length - 1 : current - 1);
+        setCurrent(current === 0 ? 3 : current - 1);
 
     }
 
@@ -27,7 +27,7 @@ function ImageSlider({slides}) {
             {slides.map((slide,index)=>{
                 return(
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                       {index === currentt && <img src={slide.img} className="image"/>} 
+                       {index === current && <img src={slide.img} className="image" />} 
                     </div>
                 )
 

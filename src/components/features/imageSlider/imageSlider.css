@@ -1,15 +1,16 @@
 .slider{
     position: relative;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .left-arrow{
     position: absolute;
     top: 50%;
-    left: 32px;
+    left: 30%;
     color: black;
     z-index: 10;
     cursor: pointer;
@@ -21,10 +22,28 @@
 .right-arrow{
     position: absolute;
     top: 50%;
-    right: 32px;
+    right: 30%;
     color: black;
     z-index: 10;
     cursor: pointer;
     user-select: none;
 
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+
+}
+
+.image{
+    width: 850px;
+    height: 600px;
+    border-radius: 10px;
 }
