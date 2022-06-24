@@ -18,17 +18,17 @@ function Beers() {
           <span className="item-price">ש״ח 20</span>
         </div>
         <div className="item-container">
-          <h4 className="item-name">קרלסברג</h4>
+          <h4 className="item-name">קורונה</h4>
           <img src={beer2} className="item-img2" />
           <span className="item-price">ש״ח 20</span>
         </div>
         <div className="item-container">
-          <h4 className="item-name">קרלסברג</h4>
+          <h4 className="item-name">הייניקן</h4>
           <img src={beer3} className="item-img3" />
           <span className="item-price">ש״ח 20</span>
         </div>
         <div className="item-container">
-          <h4 className="item-name">קרלסברג</h4>
+          <h4 className="item-name">ווינשטפאן</h4>
           <img src={beer4} className="item-img4" />
           <span className="item-price">ש״ח 20</span>
         </div>

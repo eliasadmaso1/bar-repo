@@ -13,7 +13,7 @@ function About() {
     return (
         <div className="about-container">
             <div className="about-header">
-                <h1>בארסה בר</h1>
+                <h1>אדיס בר</h1>
                 <h3>נקודת הבילוי שלכם</h3>
                 <h4>הרצל 34, ראשון לציון</h4>
             </div>
