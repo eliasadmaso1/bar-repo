@@ -65,12 +65,17 @@ function Navbar() {
     <div className="nav">
       <div className="nav-container">
         <div className="menu-icon" onClick={handleClick}>
-          {click ? <CancelIcon/> : <MenuIcon/>}
+          {click ? <CancelIcon /> : <MenuIcon />}
         </div>
         <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
+          {menuData.map((item)=>{
+            return(
+              item.link ? <li><Link to={item.link} className="media-link">{item.title}</Link></li>:<li><a href={item.href} className="media-link">{item.title}</a></li>
+
+
+            )
+
+          })}
         </ul>
       </div>
 

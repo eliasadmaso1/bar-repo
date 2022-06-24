@@ -80,7 +80,10 @@ a{
     }
     .menu-icon{
         color: white;
+        display: flex;
+        justify-content: flex-end;
     }
+    
     .nav-menu-active{
         width: 100%;
     }
@@ -89,6 +92,12 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 15px;
+        color: white;
+    }
+   
+    .media-link{
+        color: white;
     }
     .nav-menu{
         height: 0px;
