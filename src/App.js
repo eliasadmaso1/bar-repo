@@ -8,19 +8,15 @@ import Navbar from "./components/features/navbar/Navbar";
 
 function App() {
   return (
-    
     <BrowserRouter>
-    <Navbar/>
-    <Home/>
-      {/* <Routes>
+      <Navbar />
+
+      <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
-      </Routes> */}
+      </Routes>
     </BrowserRouter>
-    // <div className="div">
-    //   <div className="child">hello world</div>
-    // </div>
   );
 }
 

@@ -70,11 +70,10 @@ font-weight: bold;
     }
     .vodka-container .item-container{
         border-right: none;
-        border-bottom: solid 1px brown;
-        margin-bottom: 20px;
+        margin-top: 20px;
+
     }
     .vodka-title-container{
-        margin-bottom: 20px;
     }
     .space{
         height: 0px;

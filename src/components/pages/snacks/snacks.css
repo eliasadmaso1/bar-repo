@@ -70,7 +70,7 @@ font-weight: bold;
 (min-width: 428px) and (max-width: 767px),
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
-    .snacks-container{
+    .snack-container{
        
         grid-template-columns: 1fr;
     }

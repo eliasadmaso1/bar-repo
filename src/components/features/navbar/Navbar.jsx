@@ -70,7 +70,7 @@ function Navbar() {
         <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
           {menuData.map((item)=>{
             return(
-              item.link ? <li><Link to={item.link} className="media-link">{item.title}</Link></li>:<li><a href={item.href} className="media-link">{item.title}</a></li>
+              item.link ? <li onClick={handleClick}><Link to={item.link} className="media-link" >{item.title}</Link></li>:<li onClick={handleClick}><a href={item.href} className="media-link">{item.title}</a></li>
 
 
             )

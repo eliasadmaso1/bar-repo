@@ -69,7 +69,6 @@ font-weight: bold;
     }
     .beers-container .item-container{
         border-right: none;
-        border-bottom: solid 1px brown;
         margin-bottom: 20px;
     }
     .beers-title-container{
