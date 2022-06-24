@@ -42,7 +42,7 @@ function About() {
             </div>
             <div className="about-section2">
                 <h1>סגירת ארועים</h1>
-                <h2><a href="" className="phone-icon"><LocalPhoneIcon className="h2-icon"/></a> בהתאמה מראש</h2>
+                <h2><a href="tel:0552753626" className="phone-icon"><LocalPhoneIcon className="h2-icon"/></a> בהתאמה מראש</h2>
 
             </div>
             

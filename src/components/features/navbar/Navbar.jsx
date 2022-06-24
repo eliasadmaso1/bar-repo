@@ -16,11 +16,11 @@ function Navbar() {
   const menuData = [
     {
       title: <LocalPhoneIcon />,
-      href:""
+      href:"tel:0552753626"
     },
     {
       title: <FacebookIcon />,
-      href:""
+      href:"https://www.facebook.com/daniel.masala.14"
     },
     {
       title: "גלריה",
