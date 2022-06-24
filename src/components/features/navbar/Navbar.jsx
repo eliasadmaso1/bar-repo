@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import {Link} from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
+import CancelIcon from '@mui/icons-material/Cancel';
 
 function Navbar() {
+
+  const [click,setClick] = useState(false);
+  
+  const handleClick = ()=>{
+    setClick(!click);
+  }
   const menuData = [
     {
       title: <LocalPhoneIcon />,
@@ -28,6 +36,7 @@ function Navbar() {
     },
   ];
   return (
+    <>
     <div className="navbar-container">
       <div className="logo-container">
         <img
@@ -53,6 +62,16 @@ function Navbar() {
         );
       })}
     </div>
+    {/* <div className="nav">
+      <div className="nav-container">
+        <div className="menu-icon" onClick={handleClick}>
+          {click ? <CancelIcon/> : <MenuIcon/>}
+        </div>
+      </div>
+
+
+    </div> */}
+    </>
   );
 }
 

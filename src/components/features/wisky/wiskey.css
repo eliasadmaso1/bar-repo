@@ -64,6 +64,9 @@ font-weight: bold;
 (min-width: 360px) and (max-width: 767px) {
     .wisky-container{
        
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .wisky-container .item-container{
+        border-right: none;
     }
 }
