@@ -67,6 +67,11 @@ function Navbar() {
         <div className="menu-icon" onClick={handleClick}>
           {click ? <CancelIcon/> : <MenuIcon/>}
         </div>
+        <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
       </div>
 
 
