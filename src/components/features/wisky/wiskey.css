@@ -1,9 +1,9 @@
-.beers-container{
+.wisky-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.beers-container .item-container{
+.wisky-container .item-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -54,4 +54,16 @@ font-weight: bold;
 
 .space{
     height: 300px;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .wisky-container{
+       
+        grid-template-columns: 1fr;
+    }
 }

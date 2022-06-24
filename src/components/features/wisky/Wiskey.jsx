@@ -14,7 +14,7 @@ function Wiskey() {
 
 
         </div>
-        <div className="beers-container">
+        <div className="wisky-container">
             <div className="item-container">
                 <h4 className="item-name">בלאק לייבל</h4>
                 <img src={beer1} className="wisky-img1"/>

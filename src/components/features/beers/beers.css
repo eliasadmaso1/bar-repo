@@ -65,6 +65,7 @@ font-weight: bold;
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
     .beers-container{
+        grid-template-columns: 1fr;
     }
 }
    
