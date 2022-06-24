@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
     <div className="div1">
-    <h3>בואו לשבת בבר הכי טוב בראשל״צ ולהנות מאווירה קיבוצית וצעירה</h3>
+    <h3>בואו לשבת בבר הכי טוב בראשל״צ</h3>
     <h2>... מה  תמצאו  אצלינו</h2>
     <div className="div2">
         <span className="item">אווירה</span>

@@ -8,7 +8,7 @@ function Home() {
         <div className="home">
   
         <Header/>
-        <Alcohol/>
+        {/* <Alcohol/> */}
             
         </div>
     )

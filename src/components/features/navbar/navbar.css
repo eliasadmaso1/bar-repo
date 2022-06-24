@@ -56,6 +56,17 @@ a{
 .nav{
     width: 0px;
 }
+.media-link{
+    color: white;
+  
+    
+}
+.menu-icon{
+    visibility: hidden;
+}
+
+
+
 
 
 
@@ -82,6 +93,7 @@ a{
         color: white;
         display: flex;
         justify-content: flex-end;
+        visibility:visible;
     }
     
     .nav-menu-active{
