@@ -32,7 +32,7 @@ function Navbar() {
     },
     {
       title: "בית",
-      link:"/"
+      link:"/bar-repo"
     },
   ];
   return (
