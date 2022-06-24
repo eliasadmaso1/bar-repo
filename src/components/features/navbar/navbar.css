@@ -58,13 +58,16 @@ a{
 }
 .media-link{
     color: white;
+    height: 0px;
   
     
 }
 .menu-icon{
-    visibility: hidden;
+    display: none;
 }
-
+li{
+    display: none;
+}
 
 
 
@@ -93,18 +96,16 @@ a{
         color: white;
         display: flex;
         justify-content: flex-end;
-        visibility:visible;
     }
     
     .nav-menu-active{
         width: 100%;
     }
     .nav-menu-active li{
-        border-bottom: solid 0.5px white;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 15px;
+        padding: 35px;
         color: white;
     }
    
