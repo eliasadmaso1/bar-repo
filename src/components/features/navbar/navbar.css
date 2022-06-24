@@ -61,13 +61,14 @@ a{
 (min-width: 384px) and (max-width: 767px),
 (min-width: 360px) and (max-width: 767px) {
     .navbar-container{
-        width: 100%;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        visibility: hidden;
+        width: 0px;
 
     }
     .navbar-container .menu-item-container{
-        width: 55px;
+        width: 0px;
     }
+   
 
     
     

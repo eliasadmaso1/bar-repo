@@ -62,7 +62,7 @@ function Navbar() {
         );
       })}
     </div>
-    {/* <div className="nav">
+    <div className="nav">
       <div className="nav-container">
         <div className="menu-icon" onClick={handleClick}>
           {click ? <CancelIcon/> : <MenuIcon/>}
@@ -70,7 +70,7 @@ function Navbar() {
       </div>
 
 
-    </div> */}
+    </div>
     </>
   );
 }
