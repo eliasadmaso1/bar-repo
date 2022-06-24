@@ -5,6 +5,7 @@ import Home from "./components/pages/home/Home";
 import About from "./components/pages/about/About";
 import Gallery from "./components/pages/gallery/Gallery";
 import Navbar from "./components/features/navbar/Navbar";
+import Footer from "./components/features/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
