@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bar-repo/static/css/main.bac82de6.css",
-    "main.js": "/bar-repo/static/js/main.5fd0b876.js",
+    "main.css": "/bar-repo/static/css/main.c9a65804.css",
+    "main.js": "/bar-repo/static/js/main.4ea3d90c.js",
     "static/js/787.341c063d.chunk.js": "/bar-repo/static/js/787.341c063d.chunk.js",
     "static/media/ruski.png": "/bar-repo/static/media/ruski.e42b87e402d6b302422d.png",
     "static/media/wein.png": "/bar-repo/static/media/wein.53d93784d9e09f9ac411.png",
@@ -19,13 +19,14 @@
     "static/media/carl.png": "/bar-repo/static/media/carl.a568557bcf629e03e8e5.png",
     "static/media/fries.png": "/bar-repo/static/media/fries.81def354b34245544b84.png",
     "static/media/red.png": "/bar-repo/static/media/red.3c422437291d3c5c3ebc.png",
+    "static/media/logo.png": "/bar-repo/static/media/logo.4961631ad67d2e572f84.png",
     "index.html": "/bar-repo/index.html",
-    "main.bac82de6.css.map": "/bar-repo/static/css/main.bac82de6.css.map",
-    "main.5fd0b876.js.map": "/bar-repo/static/js/main.5fd0b876.js.map",
+    "main.c9a65804.css.map": "/bar-repo/static/css/main.c9a65804.css.map",
+    "main.4ea3d90c.js.map": "/bar-repo/static/js/main.4ea3d90c.js.map",
     "787.341c063d.chunk.js.map": "/bar-repo/static/js/787.341c063d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac82de6.css",
-    "static/js/main.5fd0b876.js"
+    "static/css/main.c9a65804.css",
+    "static/js/main.4ea3d90c.js"
   ]
 }
