@@ -9,7 +9,7 @@ function Snacks() {
     return (
         <>
         <div className="snacks-title-container">
-        <h2>נשנושים</h2>
+        <h2 style={{marginTop:"20px"}}>נשנושים</h2>
 
 
         </div>

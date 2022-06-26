@@ -9,6 +9,8 @@
 
 };
 
+/* #902D3C */
+
 
 
 
@@ -20,7 +22,7 @@
 }
 
 .navbar-container .logo-container .logo{
-    width: 50px;
+    width: 80px;
     margin-left: 20px;
 
 }
@@ -68,6 +70,11 @@ a{
 li{
     display: none;
 }
+.nav-container .logo{
+    display: none;
+}
+
+
 
 
 
@@ -92,11 +99,13 @@ li{
         background-color: brown;
         margin-top: -10vh;
     }
+    .nav
     .menu-icon{
         color: white;
         display: flex;
         justify-content: flex-end;
         margin-right: 2%;
+        margin-top: -9%;
     }
     
     .nav-menu-active{
@@ -122,6 +131,11 @@ li{
     .nav-menu li{
         visibility: hidden;
     }
+    .nav-container .logo{
+        width: 40px;
+        margin-left: 10px;
+    }
+  
    
 
     

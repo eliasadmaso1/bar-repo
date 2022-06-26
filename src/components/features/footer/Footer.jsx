@@ -1,13 +1,35 @@
 import React from 'react';
 import './footer.css';
+import logo from '../../../images/logo.png'
 
 function Footer() {
     return (
         <div className="footer">
-            <div className="footer-details">
-                <h3>footer</h3>
-                <h4>הזכויות שמורות לאליאס אדמסו</h4>
+
+            <div className="copyright">
+                <img src={logo} className="footer-logo"/>
+                <span>build & design by Elias Admaso</span>
             </div>
+
+            <div className="footer-item">
+                <h4>אדיס בר</h4>
+                <span className="item-span">הרצל 34, ראשון לציון</span>
+                <span className="item-span">055-2753626</span>
+            </div>
+
+            <div className="footer-item">
+            <h4 >שעות פתיחה</h4>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 10:00 - 1:00</span>
+
+
+            </div>
+          
             
         </div>
     )

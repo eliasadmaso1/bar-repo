@@ -5,6 +5,8 @@ import carl from '../../../images/carl.png';
 import black from '../../../images/black.png';
 import van from '../../../images/van.png';
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import ImageSlider from '../../features/imageSlider/ImageSlider';
+import { sliderData } from '../../data/sliderData';
 
 
 
@@ -16,6 +18,7 @@ function About() {
                 <h1>אדיס בר</h1>
                 <h3>נקודת הבילוי שלכם</h3>
                 <h4>הרצל 34, ראשון לציון</h4>
+                {/* <ImageSlider slides={sliderData}/> */}
             </div>
             <div className="about-section">
                 <h1>אלכוהול במחירים שפויים</h1>

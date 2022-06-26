@@ -5,6 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CancelIcon from "@mui/icons-material/Cancel";
+import logo from "../../../images/logo.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -63,7 +64,7 @@ function Navbar() {
         <div className="logo-container">
           <img
             className="logo"
-            src="https://logoeps.com/wp-content/uploads/2013/09/bar-logo-templates.png"
+            src={logo}
           />
         </div>
 
@@ -85,6 +86,10 @@ function Navbar() {
       </div>
       <div className="nav">
         <div className="nav-container">
+        <img
+            className="logo"
+            src={logo}
+          />
           <div className="menu-icon" onClick={handleClick}>
             {click ? <CancelIcon /> : <MenuIcon />}
           </div>

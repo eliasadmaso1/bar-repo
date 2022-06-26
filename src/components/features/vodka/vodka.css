@@ -2,11 +2,14 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: brown;
+    margin-bottom: 40px;
+
 }
 
 .vodka-title-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: bold;
     background-color: brown;
     color: white;
@@ -22,6 +25,7 @@
     justify-content: space-around;
     border-right: solid 2px white;
     height: 45vh;
+    margin-top: 40px;
 }
 
 .vodka-name{
