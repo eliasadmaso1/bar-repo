@@ -1,0 +1,74 @@
+.hookahs-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.hookahs-container .item-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: solid 2px brown;
+}
+
+ .hookahs-title-container{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.hookah-img1{
+    width: 240px;
+
+}
+.hookah-img2{
+    width: 240px;
+
+}
+.hookah-img3{
+    width: 140px;
+
+}
+
+
+
+
+
+.space{
+    height: 300px;
+}
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px),
+(min-width: 412px) and (max-width: 767px),
+(min-width: 390px) and (max-width: 767px),
+(min-width: 428px) and (max-width: 767px),
+(min-width: 384px) and (max-width: 767px),
+(min-width: 360px) and (max-width: 767px) {
+    .hookahs-container{
+        grid-template-columns: 1fr ;
+    }
+    .hookahs-container .item-container{
+        border-right: none;
+        margin-bottom: 30px;
+        border-top: solid 0.5px brown;
+        margin-top: 20px;
+    }
+    .hookahs-title-container{
+        margin-bottom: 20px;
+    }
+    .space{
+        height: 0px;
+    }
+    
+}

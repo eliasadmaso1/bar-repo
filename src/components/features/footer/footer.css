@@ -4,6 +4,8 @@
     height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-top: solid 0.5px brown;
+
 
 }
 .footer-item{

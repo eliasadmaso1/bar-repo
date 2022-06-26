@@ -3,9 +3,7 @@
     height: 10vh;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+   
 
 };
 

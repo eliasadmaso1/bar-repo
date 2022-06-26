@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../../features/header/Header';
-import ImageSlider from '../../features/imageSlider/ImageSlider';
 import Alcohol from '../alcohol/Alcohol';
 import './home.css';
-import {sliderData} from '../../data/sliderData';
+import Snacks from '../snacks/Snacks';
+import Hookah from '../../features/hookah/Hookah';
 
 function Home() {
     return (
@@ -11,6 +11,8 @@ function Home() {
   
         <Header/>
         <Alcohol/>
+        <Snacks/>
+        <Hookah/>
             
         </div>
     )
