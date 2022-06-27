@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 import logo from '../../../images/logo.png';
 import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 function Footer() {
@@ -26,11 +27,17 @@ function Footer() {
                 <span className="item-span">הרצל 34, ראשון לציון</span>
                 <span className="item-span">055-2753626</span>
                 <a className="item-span" href="https://www.facebook.com/daniel.masala.14" style={{color:"brown"}}><FacebookIcon/></a>
+                <a className="item-span" href="https://www.instagram.com/daniel_masala555/" style={{color:"brown"}}><InstagramIcon/></a>
+
             </div>
 
           
             <div className="copyright">
                 <img src={logo} className="footer-logo"/>
+                <span >אווירת סטודנטים בשעות הצהריים</span>
+                <span>מקומות ישיבה בחוץ</span>
+                <span>קבלת שירות על ידי מלצר</span>
+
                 <span style={{borderTop:"solid 1px brown"}}>build & design by Elias Admaso</span>
             </div>
           

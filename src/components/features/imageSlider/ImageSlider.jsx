@@ -3,7 +3,7 @@ import './imageSlider.css';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
-function ImageSlider({slides}) {
+function ImageSlider({slides,home}) {
     const [current,setCurrent] = useState(0);
 
     if(!Array.isArray(slides) || slides.length <= 0){
@@ -20,19 +20,22 @@ function ImageSlider({slides}) {
 
     }
 
-    // setTimeout(() => {
-    //     nextSlide()
-        
-    // }, 5000);
+    if(home){
+        setTimeout(() => {
+            nextSlide()
+            
+        }, 3000);
+    }
+
 
     return (
-        <div className="slider">
-            <ArrowBackIosIcon className="left-arrow" onClick={prevSlide}/>
-            <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide}/>
+        <div className={home ? "home-slider" : "gallery-slider"}>
+            {home ? null : <ArrowBackIosIcon className="left-arrow" onClick={prevSlide}/>}
+            {home ? null : <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide}/>}
             {slides.map((slide,index)=>{
                 return(
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                       {index === current && <img src={slide.img} className="image" />} 
+                       {index === current && <img src={slide.img} className={home ? "home-img" : "gallery-img"} />} 
                     </div>
                 )
 

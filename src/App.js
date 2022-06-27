@@ -6,20 +6,20 @@ import About from "./components/pages/about/About";
 import Gallery from "./components/pages/gallery/Gallery";
 import Navbar from "./components/features/navbar/Navbar";
 import Footer from "./components/features/footer/Footer";
-
+import Menu from "./components/pages/menu/Menu";
 
 function App() {
   return (
     <BrowserRouter>
-    
       <Navbar />
 
       <Routes>
         <Route exact path="/bar-repo" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/menu" element={<Menu />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

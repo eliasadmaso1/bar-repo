@@ -2,13 +2,31 @@
     height: 500px;
     background-color: brown;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+}
+
+.header-text{
+    height: 500px;
+    background-color: brown;
+    display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 40px;
 
+    
 }
+
+.header-slider{
+    
+
+}
+
+
 
 .div1 h2{
     color: white;
@@ -62,6 +80,8 @@
     .div1{
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        height: 90vh;
 
     }
     .div2{
@@ -81,6 +101,17 @@
     .div1 h2{
         margin-right: 0px;
         margin-top: 10px;
+    }
+    .header-slider{
+        height: 100%;
+        margin-top: 50px;
+
+    }
+    .header-text{
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
     }
 
 

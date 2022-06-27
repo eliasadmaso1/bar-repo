@@ -27,6 +27,10 @@ function Navbar() {
       link: "/gallery",
     },
     {
+      title: "תפריט",
+      link: "/menu",
+    },
+    {
       title: "אודות",
       link: "/about",
     },
@@ -44,6 +48,10 @@ function Navbar() {
     {
       title: "אודות",
       link: "/about",
+    },
+    {
+      title: "תפריט",
+      link: "/menu",
     },
     {
       title: "גלריה",
