@@ -18,7 +18,7 @@ function About() {
         <h1>אדיס בר</h1>
         <h3>נקודת הבילוי שלכם</h3>
         <h4>הרצל 34, ראשון לציון</h4>
-        <ImageSlider slides={sliderData} />
+        {/* <ImageSlider slides={sliderData} /> */}
       </div>
       <div className="about-section">
         <h1 style={{marginTop:"20px"}}>אלכוהול במחירים שפויים</h1>
@@ -49,17 +49,18 @@ function About() {
           </a>{" "}
           בהתאמה מראש
         </h2>
-      </div>
-      <div className="about-section">
-        <h2 style={{marginTop:"20px",padding:"30px"}}>
-          אדיס בר מארח מגוון רחב של לקוחות מבטרה לחבר בין אנשים שבאיםם מעולמות
-          שונים
-        </h2>
         <div className="logos">
           <img src={logo1} className="logos-logo"/>
           <img src={logo2} className="logos-logo1"/>
           <img src={logo3} className="logos-logo"/>
         </div>
+      </div>
+      <div className="about-section">
+        <h2 style={{marginTop:"20px",padding:"30px"}}>
+          אדיס בר מארח מגוון רחב של לקוחות במטרה לחבר בין אנשים שבאים מעולמות
+          שונים
+        </h2>
+      
       </div>
     </div>
   );

@@ -30,7 +30,7 @@
     font-weight: bold;
     background-color: brown;
     color: white;
-    height: 50vh;
+    height: 60vh;
 
 
 }
@@ -130,6 +130,7 @@
     justify-content: space-around;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .logos-logo{
     width: 100px;
@@ -165,7 +166,7 @@
     }
 
     .about-section2{
-        height: 70vh;
+        height: 100%;
     
     
     }

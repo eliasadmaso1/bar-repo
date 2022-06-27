@@ -65,10 +65,13 @@
 
     }
     .div2{
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin-right: 0px;
-        margin-top: 10px;
+        align-items: center;
+        justify-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .div1 h3{
         margin-right: 0px;

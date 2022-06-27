@@ -20,6 +20,11 @@ function ImageSlider({slides}) {
 
     }
 
+    // setTimeout(() => {
+    //     nextSlide()
+        
+    // }, 5000);
+
     return (
         <div className="slider">
             <ArrowBackIosIcon className="left-arrow" onClick={prevSlide}/>

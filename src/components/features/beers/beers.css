@@ -29,14 +29,19 @@
 color: brown;
 font-family: 'Open Sans', sans-serif;
 font-weight: bold;
+margin-top: 20px;
 }
 
 .item-img1{
     width: 300px;
+    transition: 1s;
 
 }
+.item-img1:hover{
+    width: 350px;
+}
 .item-img2{
-    width: 110px;
+    width: 220px;
 
 }
 .item-img3{
@@ -44,7 +49,7 @@ font-weight: bold;
 
 }
 .item-img4{
-    width: 180px;
+    width: 100px;
 
 }
 

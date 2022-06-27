@@ -7,9 +7,11 @@ import Gallery from "./components/pages/gallery/Gallery";
 import Navbar from "./components/features/navbar/Navbar";
 import Footer from "./components/features/footer/Footer";
 
+
 function App() {
   return (
     <BrowserRouter>
+    
       <Navbar />
 
       <Routes>
