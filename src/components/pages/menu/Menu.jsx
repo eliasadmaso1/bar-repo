@@ -62,7 +62,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  ......................................................................
+                  _______________________________
                   {wisky.price}
                 </span>
               );

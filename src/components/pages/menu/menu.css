@@ -27,7 +27,6 @@
     width: 85%;
     box-shadow: 5px 15px 10px  #0f0e0e;
     margin-bottom: 40px;
-    border-radius: 20px;
     background-color: black;
 
 }
@@ -39,7 +38,6 @@
     justify-content: flex-start;
     align-items: center;
     height: 95%;
-    border-radius: 20px;
     background-color: black;
 
 }
