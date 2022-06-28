@@ -11,13 +11,13 @@ function Footer() {
 
 <div className="footer-item">
             <h4 >שעות פתיחה</h4>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
-            <span className="item-span">א׳ 10:00 - 1:00</span>
+            <span className="item-span">א׳ 4:00 - 16:00</span>
+            <span className="item-span">ב׳ 4:00 - 16:00</span>
+            <span className="item-span">ג׳ 4:00 - 16:00</span>
+            <span className="item-span">ד׳ 4:00 - 16:00</span>
+            <span className="item-span">ה׳ 4:00 - 16:00</span>
+            <span className="item-span">ו׳ 4:00 - 16:00</span>
+            <span className="item-span">ש׳ 4:00 - 16:00</span>
 
 
             </div>
@@ -34,9 +34,7 @@ function Footer() {
           
             <div className="copyright">
                 <img src={logo} className="footer-logo"/>
-                <span >אווירת סטודנטים בשעות הצהריים</span>
-                <span>מקומות ישיבה בחוץ</span>
-                <span>קבלת שירות על ידי מלצר</span>
+              
 
                 <span style={{borderTop:"solid 1px brown"}}>build & design by Elias Admaso</span>
             </div>
