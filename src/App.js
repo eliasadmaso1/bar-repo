@@ -7,6 +7,7 @@ import Gallery from "./components/pages/gallery/Gallery";
 import Navbar from "./components/features/navbar/Navbar";
 import Footer from "./components/features/footer/Footer";
 import Menu from "./components/pages/menu/Menu";
+import Feedback from './components/pages/feedback/FeedBack';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/feedback" element={<Feedback />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>

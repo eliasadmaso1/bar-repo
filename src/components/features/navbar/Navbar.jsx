@@ -23,6 +23,10 @@ function Navbar() {
       href: "https://www.facebook.com/daniel.masala.14",
     },
     {
+      title: "ביקורות",
+      link: "/feedback",
+    },
+    {
       title: "גלריה",
       link: "/gallery",
     },
@@ -56,6 +60,10 @@ function Navbar() {
     {
       title: "גלריה",
       link: "/gallery",
+    },
+    {
+      title: "ביקורות",
+      link: "/feedback",
     },
     {
       title: <FacebookIcon />,
