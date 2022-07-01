@@ -1,5 +1,13 @@
 import React from "react";
-import { beers, bottles, shots, snacks, vodkaCaps, wines, wiskyCaps } from "../../data/menuData";
+import {
+  beers,
+  bottles,
+  shots,
+  snacks,
+  vodkaCaps,
+  wines,
+  wiskyCaps,
+} from "../../data/menuData";
 import "./menu.css";
 
 function Menu() {
@@ -17,7 +25,7 @@ function Menu() {
               return (
                 <span className="price">
                   {beer.title}
-                  .......................................................
+                  ____________
                   {beer.price}
                 </span>
               );
@@ -32,8 +40,7 @@ function Menu() {
               return (
                 <span className="price">
                   {vodka.title}
-                     .......................................................
-                  {vodka.price}
+                  ____________ {vodka.price}
                 </span>
               );
             })}
@@ -47,8 +54,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                     .......................................................
-                  {wisky.price}
+                  ____________ {wisky.price}
                 </span>
               );
             })}
@@ -62,7 +68,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  _______________________________
+                  ____________
                   {wisky.price}
                 </span>
               );
@@ -77,8 +83,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                     .......................................................
-                  {wisky.price}
+                  ____________ {wisky.price}
                 </span>
               );
             })}
@@ -92,8 +97,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                     .......................................................
-                  {wisky.price}
+                  ____________ {wisky.price}
                 </span>
               );
             })}
@@ -107,8 +111,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                     .......................................................
-                  {wisky.price}
+                  ____________ {wisky.price}
                 </span>
               );
             })}
