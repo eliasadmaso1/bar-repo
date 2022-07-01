@@ -34,12 +34,9 @@ margin-top: 20px;
 
 .item-img1{
     width: 300px;
-    transition: 1s;
 
 }
-.item-img1:hover{
-    width: 350px;
-}
+
 .item-img2{
     width: 220px;
 
@@ -78,15 +75,20 @@ margin-top: 20px;
     .beers-container .item-container{
         border-right: none;
         margin-bottom: 30px;
-        border-top: solid 0.5px brown;
         margin-top: 20px;
+        border-top: solid 1px brown;
     }
     .beers-title-container{
         margin-bottom: 20px;
+
     }
     .space{
         height: 0px;
     }
+    .item-name{
+        margin-top: 10px;
+    }
+    
     
 }
    

@@ -1,5 +1,5 @@
 .div1{
-    height: 500px;
+    height: 100%;
     background-color: brown;
     display: flex;
     align-items: center;
@@ -22,6 +22,8 @@
 }
 
 .header-slider{
+    height: 100%;
+    margin-bottom: 20px;
     
 
 }

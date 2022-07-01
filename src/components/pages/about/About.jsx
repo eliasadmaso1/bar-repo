@@ -63,6 +63,7 @@ function About() {
         <h2 style={{marginTop:"20px",padding:"30px"}}>הבר כולל מקומות ישיבה גם בחוץ</h2>
         <h2 style={{marginTop:"20px",padding:"30px"}}>אווירת סטודנטים בצהריים</h2>
         <h2 style={{marginTop:"20px",padding:"30px"}}>קבלת שירות על ידי מלצר</h2>
+        <a href="mailto:adisbar34@gmail.com"><sapn className="mail">למייל שלנו</sapn></a>
 
       
       </div>
