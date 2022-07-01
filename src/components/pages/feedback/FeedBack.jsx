@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./feedback.css";
 import StarIcon from "@mui/icons-material/Star";
 import { serverUrl } from "../../utils/index.js";
@@ -7,6 +7,17 @@ import axios from "axios";
 function FeedBack() {
   const [feedbacks, setFeedbacks] = useState([]);
   const [starsCount, setStarsCount] = useState(0);
+  const [message, setMessage] = useState("");
+
+  const [refresh, setRefresh] = useState(false);
+
+  const clearMessage = () => {
+    setMessage("");
+  };
+
+  setTimeout(() => {
+    clearMessage();
+  }, 3000);
 
   useEffect(() => {
     const fetchFeedBacks = async () => {
@@ -14,18 +25,24 @@ function FeedBack() {
       setFeedbacks(res.data);
     };
     fetchFeedBacks();
-  }, []);
+  }, [refresh]);
 
   const addFeedback = async (e) => {
     e.preventDefault();
     const data = {
-      fullName: values.fullName,
+      fullName: fullName.current.value,
       stars: starsCount,
-      description: values.description,
+      description: description.current.value,
     };
+    setMessage("תודה נפרסם את תגובתך בהמשך");
+   
 
     try {
       await axios.post(`${serverUrl}feedbacks`, data);
+      setRefresh((prev) => !prev);
+      fullName.current.value = "";
+      description.current.value = "";
+      
     } catch (error) {
       console.log(error);
     }
@@ -35,20 +52,22 @@ function FeedBack() {
     setStarsCount(number);
   };
 
-  const [values, setValues] = useState({
-    fullName: "",
-    description: "",
-  });
+  let fullName = useRef();
+  let description = useRef();
 
-  const handleChange = (e) => {
-    setValues({
-      ...values,
-      [e.target.name]: e.target.value,
-    });
-  };
+  
+
+  
 
 
+  const multElement = (length,element)=>{
+    let elements = [];
+    for(let i = 0 ; i < length ; i++){
+       elements.push(element);
+    }
+    return elements
 
+  }
   return (
     <div className="feedback-body">
       <div className="feedback-form-container">
@@ -57,8 +76,7 @@ function FeedBack() {
           <input
             className="form-input"
             placeholder="שם מלא"
-            onChange={handleChange}
-            name="fullName"
+            ref={fullName}
           />
           <h3>דרג לפי כוכבים</h3>
 
@@ -87,59 +105,33 @@ function FeedBack() {
           <h3>כתוב לנו</h3>
           <textarea
             className="feedback-description"
-            name="description"
-            onChange={handleChange}
+            ref={description}
+            
           />
-          <button
-            className="form-button"
-            onClick={addFeedback}
-          >
+          <button className="form-button" onClick={addFeedback}>
             שלח
           </button>
         </form>
       </div>
+      <span className="message">{message}</span>
       <h2 className="feedbacks-title">מה לקוחות אמרו עלינו</h2>
       <div className="feedbacks-container">
-        <div className="feedback-card">
-          <span className="feedback-card-content">אליאס אדמסו</span>
-          <img className="card-img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"/>
-          <div className="stars-container">
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-          </div>
-          <span className="feedback-card-desc">חוויה נהדרת ושירות נעים, אלכוהול איכותי במחירים זולים ואווירה כיפית מאוד</span>
-        </div>
-
-        <div className="feedback-card">
-          <span className="feedback-card-content">אליאס אדמסו</span>
-          <img className="card-img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"/>
-
-          <div className="stars-container">
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-          </div>
-          <span className="feedback-card-desc">חוויה נהדרת ושירות נעים, אלכוהול איכותי במחירים זולים ואווירה כיפית מאוד</span>
-        </div>
-
-        <div className="feedback-card">
-          <span className="feedback-card-content">אליאס אדמסו</span>
-          <img className="card-img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"/>
-
-          <div className="stars-container">
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-            <StarIcon style={{ color: "gold" }} className="star" />
-          </div>
-          <span className="feedback-card-desc">חוויה נהדרת ושירות נעים, אלכוהול איכותי במחירים זולים ואווירה כיפית מאוד</span>
-        </div>
+        {feedbacks.map((feedback) => {
+          return (
+            <div className="feedback-card">
+              <span className="feedback-card-content">{feedback.fullName}</span>
+              <img
+                className="card-img"
+                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
+              />
+              <div className="stars-container">
+             {multElement(feedback.stars, <StarIcon style={{ color: "gold" }} className="star" />)}
+             
+              </div>
+              <span className="feedback-card-desc">{feedback.description}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
