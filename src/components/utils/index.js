@@ -1,3 +1,3 @@
 export const serverUrl = 
-// "https://adisbar-server.herokuapp.com/"
-"http://localhost:8001/"
+"https://adisbar-server.herokuapp.com/"
+// "http://localhost:8001/"
