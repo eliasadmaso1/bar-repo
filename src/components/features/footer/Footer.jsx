@@ -26,7 +26,7 @@ function Footer() {
         <a
           className="item-span"
           href="mailto:adisbar34@gmail.com"
-          style={{ color: "brown" }}
+          style={{ color: "white" }}
         >
           <EmailIcon />
         </a>
@@ -34,23 +34,22 @@ function Footer() {
         <a
           className="item-span"
           href="https://www.facebook.com/daniel.masala.14"
-          style={{ color: "brown" }}
+          style={{ color: "white" }}
         >
           <FacebookIcon />
         </a>
         <a
           className="item-span"
           href="https://www.instagram.com/daniel_masala555/"
-          style={{ color: "brown" }}
+          style={{ color: "white" }}
         >
           <InstagramIcon />
         </a>
       </div>
 
       <div className="copyright">
-        <img src={logo} className="footer-logo" />
 
-        <span style={{ borderTop: "solid 1px brown" }}>
+        <span style={{ borderTop: "solid 1px white" }}>
           build & design by Elias Admaso
         </span>
       </div>

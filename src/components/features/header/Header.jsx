@@ -21,6 +21,10 @@ function Header() {
         <span className="item">נשנושים</span>
         <span className="item">אלכוהול </span>
     </div>
+    <div className="div2-special">
+    <div className="special">בירה אתיופית מהחבית</div>
+
+    </div>
     <h3>הרצל 34, ראשון לציון</h3>
       </div>
    

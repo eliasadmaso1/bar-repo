@@ -53,6 +53,31 @@
     width: 100%;
     margin-right: 90px;
 }
+.div2-special{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-right: 90px;
+}
+
+
+
+.special{
+    margin: 10px;
+    height: 80px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:brown;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:white;
+    border: solid 5px white;
+
+}
 
 .item{
     width: 150px;
@@ -83,7 +108,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 90vh;
+        height: 100%;
 
     }
     .div2{
@@ -114,6 +139,13 @@
         align-items: center;
         height: 100%;
 
+    }
+    .special{
+        width: 70%;
+    }
+    .div2-special{
+        margin-right: 0px;
+        justify-content: center;
     }
 
 
