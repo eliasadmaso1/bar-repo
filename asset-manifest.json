@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bar-repo/static/css/main.6465cedd.css",
-    "main.js": "/bar-repo/static/js/main.79dd4571.js",
+    "main.css": "/bar-repo/static/css/main.f6718010.css",
+    "main.js": "/bar-repo/static/js/main.05d26401.js",
     "static/js/787.341c063d.chunk.js": "/bar-repo/static/js/787.341c063d.chunk.js",
     "static/media/hookah3.png": "/bar-repo/static/media/hookah3.943d679330cfbcb6d392.png",
     "static/media/ruski.png": "/bar-repo/static/media/ruski.e42b87e402d6b302422d.png",
@@ -27,12 +27,12 @@
     "static/media/logo3.png": "/bar-repo/static/media/logo3.154b5181293d8231e64b.png",
     "static/media/logo1.png": "/bar-repo/static/media/logo1.77355bd90bfe7942426b.png",
     "index.html": "/bar-repo/index.html",
-    "main.6465cedd.css.map": "/bar-repo/static/css/main.6465cedd.css.map",
-    "main.79dd4571.js.map": "/bar-repo/static/js/main.79dd4571.js.map",
+    "main.f6718010.css.map": "/bar-repo/static/css/main.f6718010.css.map",
+    "main.05d26401.js.map": "/bar-repo/static/js/main.05d26401.js.map",
     "787.341c063d.chunk.js.map": "/bar-repo/static/js/787.341c063d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6465cedd.css",
-    "static/js/main.79dd4571.js"
+    "static/css/main.f6718010.css",
+    "static/js/main.05d26401.js"
   ]
 }
