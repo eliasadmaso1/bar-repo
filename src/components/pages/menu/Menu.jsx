@@ -25,7 +25,7 @@ function Menu() {
               return (
                 <span className="price">
                   {beer.title}
-                  ____________
+                 ______________________
                   {beer.price}
                 </span>
               );
@@ -40,7 +40,7 @@ function Menu() {
               return (
                 <span className="price">
                   {vodka.title}
-                  ____________ {vodka.price}
+                 ______________________ {vodka.price}
                 </span>
               );
             })}
@@ -54,7 +54,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  ____________ {wisky.price}
+                 ______________________ {wisky.price}
                 </span>
               );
             })}
@@ -68,7 +68,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  ____________
+                 ______________________
                   {wisky.price}
                 </span>
               );
@@ -83,7 +83,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  ____________ {wisky.price}
+                 ______________________ {wisky.price}
                 </span>
               );
             })}
@@ -97,7 +97,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  ____________ {wisky.price}
+                 ______________________ {wisky.price}
                 </span>
               );
             })}
@@ -111,7 +111,7 @@ function Menu() {
               return (
                 <span className="price">
                   {wisky.title}
-                  ____________ {wisky.price}
+                 ______________________ {wisky.price}
                 </span>
               );
             })}
