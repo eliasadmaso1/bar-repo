@@ -21,6 +21,8 @@
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     box-shadow: 5px 15px 10px  #0f0e0e;
+    border: solid 2px;
+    border-radius: 20px;
 
 
 
@@ -32,7 +34,7 @@
     width: 70%;
     height: 30px;
     margin-top: 30px;
-    padding-left: 95px;
+    padding-left: 105px;
 }
 
 .feedback-stars{
@@ -67,6 +69,7 @@
     width: 90%;
     margin-top: 20px;
     height: 30%;
+    padding-left: 150px;
 }
 
 .form-button{
@@ -128,6 +131,9 @@
     background-color: brown;
     height: 30%;
     margin-top: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+
 
 
  
