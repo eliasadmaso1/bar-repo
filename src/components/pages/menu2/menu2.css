@@ -3,6 +3,9 @@
     justify-content: center;
     width: 100%;
     background-color: brown;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
     
 
 }
@@ -13,6 +16,7 @@
     background-color: black;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-image: url("https://previews.123rf.com/images/lesik/lesik1402/lesik140200084/25741853-the-blank-background-of-the-old-menu-with-vintage-bottles.jpg");
 
 }
 
@@ -22,8 +26,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    border-bottom: solid 1px white;
-    background-color: black;
+    background-color:#1a1a1a;
 }
 
 .menu-header-item{
@@ -35,6 +38,8 @@
     border-radius: 50%;
     background-color: white;
     color: black;
+    background-image: url("https://thumbs.dreamstime.com/b/stone-natural-wallpaper-paper-texture-abstract-735055.jpg");
+
 }
 .menu-header-title{
     width: 65%;
@@ -52,7 +57,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    border-bottom: solid 1px white;
 
 }
 
@@ -62,19 +66,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: black;
 }
 .menu-section-item-title{
     width: 80%;
     height: 15%;
-    border: solid 2px black;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    background-color: white;
-    color: black;
+    background-color:#1a1a1a;
+    color: white;
 }
 
 .menu-sectio-item-text{
@@ -86,10 +89,13 @@
     margin-top: 10%;
     width: 80%;
     height: 80%;
-    background-color: white;
+    background-color: #1a1a1a;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    color: white;
+    border-radius: 50%;
 
 }
 
@@ -127,6 +133,7 @@
     .menu-section-specials{
         margin-bottom: 30px;
         margin-top: 0px;
+        height: 100%;
     }
 
 }
