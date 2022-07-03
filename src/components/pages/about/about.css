@@ -31,7 +31,6 @@
     background-color: brown;
     color: white;
     height: 60vh;
-    margin-bottom: 20px;
 
 
 }
@@ -43,7 +42,7 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    background-color: white;
+    background-color:#262626;
     color: brown;
     height: 50vh;
 
@@ -99,7 +98,6 @@
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border: solid 2px;
     width: 20%;
     height: 18%;
     color: white;

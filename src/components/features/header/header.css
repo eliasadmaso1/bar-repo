@@ -1,6 +1,6 @@
 .div1{
     height: 100%;
-    background-color: brown;
+    background-color:#262626;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -10,7 +10,7 @@
 
 .header-text{
     height: 500px;
-    background-color: brown;
+    background-color: #262626;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:brown;
+    background-color:#262626;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;

@@ -20,13 +20,11 @@
 }
 .copyright{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    justify-content: space-between;
     margin-bottom: 30px;
 
 }
