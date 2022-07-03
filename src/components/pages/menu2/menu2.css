@@ -113,9 +113,20 @@
     }
     .menu-section{
         grid-template-columns: 1fr;
+        height: 100%;
+
     }
+    .menu-section-item{
+        height: 100%;
+        margin-bottom: 30px;
+    }
+  
     .menu-section-item-title{
-        height: 25%;
+        height: 50px;
+    }
+    .menu-section-specials{
+        margin-bottom: 30px;
+        margin-top: 0px;
     }
 
 }
