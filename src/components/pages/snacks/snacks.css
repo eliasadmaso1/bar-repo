@@ -78,4 +78,8 @@ margin-top: 20px;
        
         grid-template-columns: 1fr;
     }
+    .snack-container .item-container{
+        border-right: none;
+
+    }
 }
