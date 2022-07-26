@@ -15,15 +15,15 @@ About Page -
 
 Menu Page - 
 
-<img width="1680" alt="Screen Shot 2022-07-26 at 18 20 48" src="https://user-images.githubusercontent.com/76824469/181046050-1449bcb0-ee9e-4eb6-9136-b313601f35ed.png">
+<img width="350" alt="Screen Shot 2022-07-26 at 18 20 48" src="https://user-images.githubusercontent.com/76824469/181046050-1449bcb0-ee9e-4eb6-9136-b313601f35ed.png">
 
 Gallery Page - 
 
-<img width="1680" alt="Screen Shot 2022-07-26 at 18 20 57" src="https://user-images.githubusercontent.com/76824469/181046208-5744b592-61e4-40c4-9f81-faca58767107.png">
+<img width="350" alt="Screen Shot 2022-07-26 at 18 20 57" src="https://user-images.githubusercontent.com/76824469/181046208-5744b592-61e4-40c4-9f81-faca58767107.png">
 
 Feedback Page - 
 
-<img width="1680" alt="Screen Shot 2022-07-26 at 18 21 10" src="https://user-images.githubusercontent.com/76824469/181046394-e518d7da-d018-444e-8451-8272a7d96c1c.png">
+<img width="350" alt="Screen Shot 2022-07-26 at 18 21 10" src="https://user-images.githubusercontent.com/76824469/181046394-e518d7da-d018-444e-8451-8272a7d96c1c.png">
 
 
 
