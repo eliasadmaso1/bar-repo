@@ -1,6 +1,9 @@
+import img from '../../images/img.jpeg';
+
+
 export const sliderData = [
     {
-        img:"https://cdn.cnn.com/cnnnext/dam/assets/211207103328-03-worlds-best-bars-2021-paradiso-super-169.jpg",
+        img:img,
      
     },
     {

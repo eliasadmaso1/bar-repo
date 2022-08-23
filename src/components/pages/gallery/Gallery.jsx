@@ -3,6 +3,7 @@ import { sliderData } from '../../data/sliderData';
 import ImageSlider from '../../features/imageSlider/ImageSlider';
 import './gallery.css';
 
+
 function Gallery() {
     return (
         <div className="gallery">

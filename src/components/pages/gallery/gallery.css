@@ -1,5 +1,5 @@
 .gallery{
-background-color: #262626;}
+background-color:#902D3C;}
 
 
 .gallery-title{
@@ -10,7 +10,7 @@ background-color: #262626;}
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    color: white;
+    color: #DFD4B8;
 }
 
 @media only screen and (min-width: 414px) and (max-width: 767px),

@@ -28,9 +28,10 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    background-color: brown;
-    color: white;
+    background-color:#DFD4B8;
+    color: brown;
     height: 60vh;
+    border-bottom: solid 1px #902D3C;
 
 
 }
@@ -42,7 +43,7 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    background-color:#262626;
+    background-color:#902D3C;
     color: brown;
     height: 50vh;
 
@@ -60,7 +61,6 @@
 
 .card{
     width: 12%;
-    border: solid 2px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -100,15 +100,15 @@
     justify-content: space-around;
     width: 20%;
     height: 18%;
-    color: white;
-    background-color: brown;
+    color: #902D3C;
+    background-color:#DFD4B8;
 }
 
 
 
 
 .phone-icon{
-    color: white;
+    color: #902D3C;
     transition: 1s;
     width: 50px;
     height: 50px;
@@ -138,8 +138,8 @@
     width: 150px;
 }
 .mail{
-    background-color: white;
-    color: brown;
+    background-color:#902D3C;
+    color:#DFD4B8;
     width: 200px;
     height: 50px;
     display: flex;

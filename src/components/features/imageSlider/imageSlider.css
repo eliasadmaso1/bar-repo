@@ -18,7 +18,7 @@
     position: absolute;
     top: 50%;
     left: 1%;
-    color: white;
+    color: #DFD4B8;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -30,7 +30,7 @@
     position: absolute;
     top: 50%;
     right: 1%;
-    color: white;
+    color: #DFD4B8;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -53,6 +53,7 @@
 .gallery-img{
     width: 750px;
     height: 500px;
+    border: solid 2px #DFD4B8;
 
 }
 
