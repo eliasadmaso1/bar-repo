@@ -1,24 +1,24 @@
 .div1{
     height: 100%;
-    background-color:#262626;
+    background-color:#902D3C;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 40px;
-    box-shadow: 2px 7px 20px  black;
 
 
 }
 
 .header-text{
     height: 500px;
-    background-color: #262626;
+    background-color: #902D3C;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 40px;
+    color: #DFD4B8;
 
     
 }
@@ -33,14 +33,12 @@
 
 
 .div1 h2{
-    color: white;
     margin-right: 110px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 
 }
 .div1 h3{
-    color: white;
     margin-right: 110px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -65,39 +63,25 @@
 
 
 
-.special{
-    margin: 10px;
-    height: 80px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#262626;
-    border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    color:white;
-    border: solid 5px white;
 
-}
 
 .item{
-    width: 150px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45px;
-    background: white;
-    border-radius: 10px;
+    height: 40px;
+    background: #DFD4B8;
+    border-radius: 5px;
     margin: 10px;
     transition: 1s;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    color: #902D3C;
 }
 
 .item:hover{
-    background-color: brown;
-    color: white;
+    opacity: 0.5;
 }
 
 @media only screen and (min-width: 414px) and (max-width: 767px),

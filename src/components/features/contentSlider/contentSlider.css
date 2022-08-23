@@ -4,8 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    box-shadow: 2px 7px 20px  black;
+    background-color: #DFD4B8;
 
    
 
@@ -14,7 +13,7 @@
 .content-left-arrow{
     position: absolute;
     left: 40%;
-    color: white;
+    color: #902D3C;
     cursor: pointer;
     user-select: none;
 
@@ -24,7 +23,7 @@
 .content-right-arrow{
     position: absolute;
     right: 40%;
-    color:white;
+    color:#902D3C;
     cursor: pointer;
     user-select: none;
 
@@ -44,7 +43,7 @@
 }
 
 .slide-div{
-    color: white;
+    color: #902D3C;
     font-size: 12px;
 }
 

@@ -1,7 +1,7 @@
 .snack-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    background-color: #262626;
+    background-color: #902D3C;
 }
 
 .title-container{
@@ -18,7 +18,7 @@
     align-items: center;
 
     font-weight: bold;
-    background-color:#262626;
+    background-color:#902D3C;
     color:white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;

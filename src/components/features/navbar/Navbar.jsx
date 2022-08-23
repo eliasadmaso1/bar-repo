@@ -77,12 +77,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar-container">
-        <div className="logo-container">
-          <img
-            className="logo"
-            src={logo}
-          />
-        </div>
+     
 
         {menuData.map((item) => {
           return item.link ? (
