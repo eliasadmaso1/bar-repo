@@ -1,8 +1,7 @@
 .beers-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    background-color: #DFD4B8;
 
 }
 
@@ -19,7 +18,7 @@
     display: flex;
     justify-content: center;
     font-weight: bold;
-    background-color: white;
+    background-color: #DFD4B8;
     color: brown;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -38,7 +37,7 @@ margin-top: 20px;
 }
 
 .item-img2{
-    width: 220px;
+    width: 50px;
 
 }
 .item-img3{
@@ -46,7 +45,7 @@ margin-top: 20px;
 
 }
 .item-img4{
-    width: 100px;
+    width: 190px;
 
 }
 

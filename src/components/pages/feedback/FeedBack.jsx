@@ -72,13 +72,13 @@ function FeedBack() {
     <div className="feedback-body">
       <div className="feedback-form-container">
         <form className="form">
-          <h3>הוסף חוות דעת על המקום</h3>
+          <h3 style={{color:"#902D3C"}}>הוסף חוות דעת על המקום</h3>
           <input
             className="form-input"
             placeholder="שם מלא"
             ref={fullName}
           />
-          <h3>דרג לפי כוכבים</h3>
+          <h3 style={{color:"#902D3C"}}>דרג לפי כוכבים</h3>
 
           <div className="feedback-stars">
             <div className="star-option" onClick={() => getNumberOfStars(1)}>
@@ -102,7 +102,7 @@ function FeedBack() {
               <StarIcon style={{ color: "gold" }} />
             </div>
           </div>
-          <h3>כתוב לנו</h3>
+          <h3 style={{color:"#902D3C"}}>כתוב לנו</h3>
           <textarea
             className="feedback-description"
             ref={description}

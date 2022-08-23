@@ -1,6 +1,7 @@
 .wisky-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #DFD4B8;
 }
 
 .wisky-container .item-container{
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: center;
     font-weight: bold;
-    background-color:white;
+    background-color:#DFD4B8;
     color:brown;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
