@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bar-repo/static/css/main.a482a0db.css",
-    "main.js": "/bar-repo/static/js/main.fcf1f71a.js",
+    "main.css": "/bar-repo/static/css/main.a60243ac.css",
+    "main.js": "/bar-repo/static/js/main.029bec08.js",
     "static/js/787.341c063d.chunk.js": "/bar-repo/static/js/787.341c063d.chunk.js",
     "static/media/hookah3.png": "/bar-repo/static/media/hookah3.943d679330cfbcb6d392.png",
     "static/media/ruski.png": "/bar-repo/static/media/ruski.e42b87e402d6b302422d.png",
@@ -17,23 +17,23 @@
     "static/media/jeck.png": "/bar-repo/static/media/jeck.baa4cf7a574e234aaf5f.png",
     "static/media/van.png": "/bar-repo/static/media/van.5c017210ef5a70242349.png",
     "static/media/hookah2.png": "/bar-repo/static/media/hookah2.accf61140af61a53171e.png",
-    "static/media/corona.png": "/bar-repo/static/media/corona.d8728e587c59cd9c7640.png",
     "static/media/carl.png": "/bar-repo/static/media/carl.a568557bcf629e03e8e5.png",
     "static/media/fries.png": "/bar-repo/static/media/fries.81def354b34245544b84.png",
     "static/media/hookah.png": "/bar-repo/static/media/hookah.b7fe5d320c6c27ef171b.png",
     "static/media/img.jpeg": "/bar-repo/static/media/img.d45ba9cd2f8936dffcc6.jpeg",
     "static/media/red.png": "/bar-repo/static/media/red.3c422437291d3c5c3ebc.png",
+    "static/media/coro.png": "/bar-repo/static/media/coro.a65079530d20cc8e10c4.png",
     "static/media/logo.png": "/bar-repo/static/media/logo.4961631ad67d2e572f84.png",
     "static/media/logo2.png": "/bar-repo/static/media/logo2.b63730a950718c0510b2.png",
     "static/media/logo3.png": "/bar-repo/static/media/logo3.154b5181293d8231e64b.png",
     "static/media/logo1.png": "/bar-repo/static/media/logo1.77355bd90bfe7942426b.png",
     "index.html": "/bar-repo/index.html",
-    "main.a482a0db.css.map": "/bar-repo/static/css/main.a482a0db.css.map",
-    "main.fcf1f71a.js.map": "/bar-repo/static/js/main.fcf1f71a.js.map",
+    "main.a60243ac.css.map": "/bar-repo/static/css/main.a60243ac.css.map",
+    "main.029bec08.js.map": "/bar-repo/static/js/main.029bec08.js.map",
     "787.341c063d.chunk.js.map": "/bar-repo/static/js/787.341c063d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a482a0db.css",
-    "static/js/main.fcf1f71a.js"
+    "static/css/main.a60243ac.css",
+    "static/js/main.029bec08.js"
   ]
 }
