@@ -76,12 +76,10 @@ margin-top: 20px;
     .vodka-container .item-container{
         border-right: none;
         margin-bottom: 30px;
-        border-top: solid 0.5px white;
         margin-top: 20px;
 
     }
     .vodka-title-container{
-        margin-top: 20px;
     }
     .space{
         display: none;

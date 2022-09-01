@@ -14,6 +14,7 @@
 
 }
 
+
 .left-arrow{
     position: absolute;
     top: 50%;
@@ -81,5 +82,9 @@
         width: 300px;
         height: 200px;
 
+    }
+    .home-slider{
+        visibility: hidden;
+        height: 0px;
     }
 }
