@@ -97,11 +97,10 @@ li{
     }
     .nav
     .menu-icon{
-        color: #DFD4B8;
+        color: grey;
         display: flex;
         justify-content: flex-end;
         margin-right: 2%;
-        margin-top: -9%;
     }
     
     .nav-menu-active{

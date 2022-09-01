@@ -6,7 +6,6 @@ import About from "./components/pages/about/About";
 import Gallery from "./components/pages/gallery/Gallery";
 import Navbar from "./components/features/navbar/Navbar";
 import Footer from "./components/features/footer/Footer";
-import Menu from "./components/pages/menu/Menu";
 import Feedback from './components/pages/feedback/FeedBack';
 import ContentSlider from "./components/features/contentSlider/ContentSlider";
 import { sliderContent } from "./components/data/slider";
