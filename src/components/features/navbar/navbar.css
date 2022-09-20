@@ -15,15 +15,17 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    justify-content: center;
     height: 80px;
     padding: 0 2rem;
     background-color: var(--secondaryColor);
     color: var(--txtColor);
 }
 
+
 nav a{
     margin: 0 2rem;
-    color: var(--txtColor);
+    color: var(--mainColor);
     text-decoration: none;
 }
 

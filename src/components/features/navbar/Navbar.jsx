@@ -6,6 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { useRef } from "react";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 
 
@@ -20,13 +21,13 @@ const Navbar = () => {
   return (
     <header>
       <nav ref={navRef}>
-        <Link to="/bar-repo" onClick={handleChange}>בית</Link>
+        <Link to="/bar-repo" onClick={handleChange} className="a">בית</Link>
         <Link to="/about" onClick={handleChange}>אודות</Link>
         <Link to="/menu" onClick={handleChange}>תפריט</Link>
         <Link to="/gallery" onClick={handleChange}>גלריה</Link>
         <Link to="/feedback" onClick={handleChange}>ביקורות</Link>
-        <Link to="/" onClick={handleChange}><WhatsAppIcon/></Link>
-        <Link to="/" onClick={handleChange}><FacebookOutlinedIcon/></Link>
+        <a href="tel:0552753626" onClick={handleChange}><WhatsAppIcon/></a>
+        <a href="https://www.instagram.com/adis_bar_34/" onClick={handleChange}><InstagramIcon/></a>
 
 
 
