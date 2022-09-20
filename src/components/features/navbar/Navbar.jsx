@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to="/bar-repo" onClick={handleChange}>בית</Link>
         <Link to="/about" onClick={handleChange}>אודות</Link>
         <Link to="/menu" onClick={handleChange}>תפריט</Link>
-        <Link to="/" onClick={handleChange}>גלריה</Link>
+        <Link to="/gallery" onClick={handleChange}>גלריה</Link>
         <Link to="/feedback" onClick={handleChange}>ביקורות</Link>
         <Link to="/" onClick={handleChange}><WhatsAppIcon/></Link>
         <Link to="/" onClick={handleChange}><FacebookOutlinedIcon/></Link>
