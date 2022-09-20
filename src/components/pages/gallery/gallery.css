@@ -27,12 +27,14 @@ grid-template-columns: 1fr;
 
 }
 .image{
-    width: 450px;
-    height: 350px;
-    transition: 1.5s;
+    width: 420px;
+    height: 320px;
+    transition: 0.5s;
+    border-radius: 50px;
+  
 }
 .image:hover{
-    opacity: 0.5;
+    border: solid 1px white;
 }
 
 @media only screen and (min-width: 414px) and (max-width: 767px),
@@ -55,6 +57,7 @@ grid-template-columns: 1fr;
         width: 350px;
         height: 280px;
         margin-bottom: 20px;
+        margin-top: 50px;
     }
 
   

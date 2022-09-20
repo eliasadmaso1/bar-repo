@@ -2,6 +2,7 @@ import React from "react";
 import { sliderData } from "../../data/sliderData";
 import "./header.css";
 import ImageSlider from '../imageSlider/ImageSlider';
+import headerImg from '../../../images/bar8.jpeg'
 
 function Header() {
  
@@ -9,8 +10,9 @@ function Header() {
     <>
     <div className="div1">
       <div className="header-slider">
-      <ImageSlider slides={sliderData} home={true}/>
-
+        <h1 className="header-title">אדיס בר</h1>
+      <img src={headerImg} className="header-img"/>
+      <ImageSlider slides={sliderData}/>
       </div>
       <div className="header-text">
       <h3>בואו לשבת בבר הכי טוב בראשל״צ</h3>

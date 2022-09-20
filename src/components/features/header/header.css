@@ -83,6 +83,21 @@
     opacity: 0.5;
 }
 
+.header-img{
+    width: 0px;
+    visibility: hidden;
+
+}
+.header-title{
+    color: #DFD4B8;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    visibility: hidden;
+    height: 0px;
+
+}
+
 @media only screen and (min-width: 414px) and (max-width: 767px),
 (min-width: 412px) and (max-width: 767px),
 (min-width: 390px) and (max-width: 767px),
@@ -131,6 +146,17 @@
     .div2-special{
         margin-right: 0px;
         justify-content: center;
+    }
+    .header-img{
+        visibility: visible;
+        width: 350px;
+        border-radius: 48%;
+
+    }
+    .header-title{
+        visibility: visible;
+        height: 50px;
+    
     }
 
 
