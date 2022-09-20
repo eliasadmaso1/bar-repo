@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/bar-repo/static/css/main.bcfca1ac.css",
-    "main.js": "/bar-repo/static/js/main.eef82ff2.js",
+    "main.css": "/bar-repo/static/css/main.54bd95ed.css",
+    "main.js": "/bar-repo/static/js/main.fe7461c1.js",
     "static/js/787.341c063d.chunk.js": "/bar-repo/static/js/787.341c063d.chunk.js",
     "static/media/hookah3.png": "/bar-repo/static/media/hookah3.943d679330cfbcb6d392.png",
     "static/media/ruski.png": "/bar-repo/static/media/ruski.e42b87e402d6b302422d.png",
     "static/media/wein.png": "/bar-repo/static/media/wein.53d93784d9e09f9ac411.png",
+    "static/media/menu1.png": "/bar-repo/static/media/menu1.bb23509fde4426ae4f5f.png",
     "static/media/hein.png": "/bar-repo/static/media/hein.7be942ed90355c25c98a.png",
     "static/media/black.png": "/bar-repo/static/media/black.cac542743b45685d4901.png",
     "static/media/onion.png": "/bar-repo/static/media/onion.3d047432b9d224e2ba82.png",
@@ -17,23 +18,30 @@
     "static/media/jeck.png": "/bar-repo/static/media/jeck.baa4cf7a574e234aaf5f.png",
     "static/media/van.png": "/bar-repo/static/media/van.5c017210ef5a70242349.png",
     "static/media/hookah2.png": "/bar-repo/static/media/hookah2.accf61140af61a53171e.png",
+    "static/media/bar4.jpeg": "/bar-repo/static/media/bar4.1f520da139a43647a1b1.jpeg",
+    "static/media/bar3.jpeg": "/bar-repo/static/media/bar3.b3bd5aec01a737751e7d.jpeg",
     "static/media/carl.png": "/bar-repo/static/media/carl.a568557bcf629e03e8e5.png",
+    "static/media/bar2.jpeg": "/bar-repo/static/media/bar2.c62fa1231998a452f86c.jpeg",
     "static/media/fries.png": "/bar-repo/static/media/fries.81def354b34245544b84.png",
+    "static/media/bar1.jpeg": "/bar-repo/static/media/bar1.7226a1875aff5662e547.jpeg",
     "static/media/hookah.png": "/bar-repo/static/media/hookah.b7fe5d320c6c27ef171b.png",
     "static/media/img.jpeg": "/bar-repo/static/media/img.d45ba9cd2f8936dffcc6.jpeg",
     "static/media/red.png": "/bar-repo/static/media/red.3c422437291d3c5c3ebc.png",
+    "static/media/menu2.png": "/bar-repo/static/media/menu2.6e94a73bc39f0841d06b.png",
     "static/media/coro.png": "/bar-repo/static/media/coro.a65079530d20cc8e10c4.png",
     "static/media/logo.png": "/bar-repo/static/media/logo.4961631ad67d2e572f84.png",
     "static/media/logo2.png": "/bar-repo/static/media/logo2.b63730a950718c0510b2.png",
+    "static/media/menu3.png": "/bar-repo/static/media/menu3.72e7b31df673fa0fee4f.png",
     "static/media/logo3.png": "/bar-repo/static/media/logo3.154b5181293d8231e64b.png",
+    "static/media/menu4.png": "/bar-repo/static/media/menu4.d83beaa88b8fdd609740.png",
     "static/media/logo1.png": "/bar-repo/static/media/logo1.77355bd90bfe7942426b.png",
     "index.html": "/bar-repo/index.html",
-    "main.bcfca1ac.css.map": "/bar-repo/static/css/main.bcfca1ac.css.map",
-    "main.eef82ff2.js.map": "/bar-repo/static/js/main.eef82ff2.js.map",
+    "main.54bd95ed.css.map": "/bar-repo/static/css/main.54bd95ed.css.map",
+    "main.fe7461c1.js.map": "/bar-repo/static/js/main.fe7461c1.js.map",
     "787.341c063d.chunk.js.map": "/bar-repo/static/js/787.341c063d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcfca1ac.css",
-    "static/js/main.eef82ff2.js"
+    "static/css/main.54bd95ed.css",
+    "static/js/main.fe7461c1.js"
   ]
 }
