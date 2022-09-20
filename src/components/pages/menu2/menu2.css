@@ -104,6 +104,26 @@
     border-radius: 50%;
 
 }
+.menu-img1{
+    margin-top: 25px;
+    width: 90px;
+
+}
+.menu-img2{
+    margin-top: 25px;
+    width: 130px;
+    
+}
+.menu-img3{
+    margin-top: 10px;
+    width: 130px;
+    
+}
+.menu-img4{
+    margin-top: 40px;
+    width: 200px;
+    
+}
 
 
 @media only screen and (min-width: 414px) and (max-width: 767px),
@@ -115,6 +135,7 @@
     .menu2{
         width: 100%;
         border: none;
+        margin-bottom: 0px;
     }
 
     .menu-header{

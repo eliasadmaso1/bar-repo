@@ -9,6 +9,10 @@ import {
   wiskyCaps,
 } from "../../data/menuData";
 import "./menu2.css";
+import img1 from '../../../images/menu1.png';
+import img2 from '../../../images/menu2.png';
+import img3 from '../../../images/menu3.png';
+import img4 from '../../../images/menu4.png';
 
 function Menu2() {
   return (
@@ -30,6 +34,7 @@ function Menu2() {
                 </span>
               );
             })}
+            <img src={img1} className="menu-img1"/>
           </div>
           <div className="menu-section-item">
             <span className="menu-section-item-title">כוסות וויסקי</span>
@@ -40,6 +45,7 @@ function Menu2() {
                 </span>
               );
             })}
+            <img src={img2} className="menu-img2"/>
           </div>
         </div>
 
@@ -53,6 +59,7 @@ function Menu2() {
                 </span>
               );
             })}
+          <img src={img3} className="menu-img3"/>
           </div>
           <div className="menu-section-item">
             <span className="menu-section-item-title">בקבוקים</span>
@@ -78,6 +85,7 @@ function Menu2() {
                 </span>
               );
             })}
+          <img src={img4} className="menu-img4"/>
           </div>
 
           <div className="menu-section-specials">
