@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bar-repo/static/css/main.8d1e51ec.css",
-    "main.js": "/bar-repo/static/js/main.fe7461c1.js",
+    "main.css": "/bar-repo/static/css/main.1e46c211.css",
+    "main.js": "/bar-repo/static/js/main.fc03f4df.js",
     "static/js/787.341c063d.chunk.js": "/bar-repo/static/js/787.341c063d.chunk.js",
     "static/media/hookah3.png": "/bar-repo/static/media/hookah3.943d679330cfbcb6d392.png",
     "static/media/ruski.png": "/bar-repo/static/media/ruski.e42b87e402d6b302422d.png",
@@ -27,21 +27,26 @@
     "static/media/hookah.png": "/bar-repo/static/media/hookah.b7fe5d320c6c27ef171b.png",
     "static/media/img.jpeg": "/bar-repo/static/media/img.d45ba9cd2f8936dffcc6.jpeg",
     "static/media/red.png": "/bar-repo/static/media/red.3c422437291d3c5c3ebc.png",
+    "static/media/bar6.jpeg": "/bar-repo/static/media/bar6.3b47230afc18016a9627.jpeg",
     "static/media/menu2.png": "/bar-repo/static/media/menu2.6e94a73bc39f0841d06b.png",
+    "static/media/bar7.jpeg": "/bar-repo/static/media/bar7.bacaca503be4b2c94eda.jpeg",
     "static/media/coro.png": "/bar-repo/static/media/coro.a65079530d20cc8e10c4.png",
+    "static/media/bar5.jpeg": "/bar-repo/static/media/bar5.ec7c6084cbddce0abc9a.jpeg",
     "static/media/logo.png": "/bar-repo/static/media/logo.4961631ad67d2e572f84.png",
     "static/media/logo2.png": "/bar-repo/static/media/logo2.b63730a950718c0510b2.png",
     "static/media/menu3.png": "/bar-repo/static/media/menu3.72e7b31df673fa0fee4f.png",
+    "static/media/bar8.jpeg": "/bar-repo/static/media/bar8.d9a1ef626926123d54f1.jpeg",
     "static/media/logo3.png": "/bar-repo/static/media/logo3.154b5181293d8231e64b.png",
     "static/media/menu4.png": "/bar-repo/static/media/menu4.d83beaa88b8fdd609740.png",
+    "static/media/bar9.jpeg": "/bar-repo/static/media/bar9.888f0b727f94de1334a9.jpeg",
     "static/media/logo1.png": "/bar-repo/static/media/logo1.77355bd90bfe7942426b.png",
     "index.html": "/bar-repo/index.html",
-    "main.8d1e51ec.css.map": "/bar-repo/static/css/main.8d1e51ec.css.map",
-    "main.fe7461c1.js.map": "/bar-repo/static/js/main.fe7461c1.js.map",
+    "main.1e46c211.css.map": "/bar-repo/static/css/main.1e46c211.css.map",
+    "main.fc03f4df.js.map": "/bar-repo/static/js/main.fc03f4df.js.map",
     "787.341c063d.chunk.js.map": "/bar-repo/static/js/787.341c063d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d1e51ec.css",
-    "static/js/main.fe7461c1.js"
+    "static/css/main.1e46c211.css",
+    "static/js/main.fc03f4df.js"
   ]
 }
